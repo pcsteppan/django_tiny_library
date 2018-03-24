@@ -28,9 +28,9 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'v6!kak_lp(%2b$%2lo@ie^rh7(5gg(
 DEBUG = bool( os.environ.get('DJANGO_DEBUG', True) )
 
 ALLOWED_HOSTS = [
+    "127.0.0.1",
     "patricks-tiny-library.herokuapp.com",
 ]
-
 
 # Application definition
 
